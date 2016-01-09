@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  'Masterton Open Source Technology'
+  erb :index
 end
